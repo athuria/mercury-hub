@@ -1070,7 +1070,7 @@ end
 function Library:tab(options)
 	options = self:set_defaults({
 		Name = "New Tab",
-		Icon = "rbxassetid://11431531632"
+		Icon = "rbxassetid://11431731085"
 	}, options)
 
 	local tab = self.container:object("ScrollingFrame", {
